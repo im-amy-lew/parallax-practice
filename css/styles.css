@@ -1,0 +1,43 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+.jumbotron_font {
+  font-family: 'Lobster', cursive;
+}
+
+.parallax {
+  height: 50rem;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.text_bg {
+  background-color: rgb(0, 0, 0, 0.6);
+}
+
+#bg_1 {
+  background-image: url(../img/vw-bug.jpg);
+}
+
+#bg_2 {
+  background-image: url(../img/hitchhiker.jpg);
+}
+
+#bg_3 {
+  background-image: url(../img/city-backpack.jpg);
+}
+
+#bg_4 {
+  background-image: url(../img/red-flannel.jpg);
+}
+
+#bg_5 {
+  background-image: url(../img/roadside.jpg);
+}
