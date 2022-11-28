@@ -43,18 +43,23 @@ h1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(../img/roadside.jpg);
 }
 
+.bg_circle {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255, 0.15);
+}
+
 footer {
   background-color: #f54746;
   height: 50vh;
 }
 
 .social_media {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
   height: 3rem;
   width: 3rem;
-  border-radius: 50%;
-  background-color: rgb(255, 255, 255, 0.15);
 }
