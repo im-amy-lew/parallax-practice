@@ -1,0 +1,137 @@
+* {
+  font-family: var(--body-font);
+}
+
+:root {
+  --jumbotron-font: 'Lobster', cursive;
+  --body-font: 'Open Sans', sans-serif;
+}
+
+
+/* Navbar */
+.navbar-toggler {
+  border-radius: 50%;
+  padding: 0;
+}
+
+.nav-link {
+  color: var(--bs-gray-100);
+}
+
+
+/* Jumbotron */
+.jumbotron_font {
+  font-size: 7rem;
+  opacity: 0.8;
+  font-family: var(--jumbotron-font);
+  text-shadow: -2px -1px 2px rgba(0,0,0,0.4);
+}
+
+#jumbotron {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(../img/vw-bug.jpg);
+}
+
+
+/* Background images */
+#bg_1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(../img/hitchhiker.jpg);
+}
+
+#bg_2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(../img/city-backpack.jpg);
+}
+
+#bg_3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(../img/red-flannel.jpg);
+}
+
+#bg_4 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(../img/roadside.jpg);
+}
+
+
+/* Parallax effect */
+.parallax {
+  height: 100vh;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+/* Text box */
+.text_bg {
+  background-color: rgb(0, 0, 0, 0.55);
+  width: 62%;
+  padding: 3rem;
+}
+
+.date {
+  color: var(--bs-gray-500);
+}
+
+.text_main {
+  color: var(--bs-gray-400);
+}
+
+.border {
+  border-color: var(--bs-gray-700) !important;
+  padding: 0.75rem 1.7rem;
+}
+
+
+/* Circular icon background */
+.bg_circle {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255, 0.15);
+}
+
+
+/* Footer */
+footer {
+  background-color: #f54746;
+  height: 50vh;
+}
+
+.social_media {
+  height: 4rem;
+  width: 4rem;
+}
+
+
+/* Media queries */
+@media only screen and (max-width: 725px) {
+  .text_bg {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .text_bg {
+    padding: 2rem;
+  }
+}  
+
+@media only screen and (max-width: 425px) {
+  .jumbotron_font {
+    font-size: 5rem;
+    opacity: 0.8;
+    font-family: var(--jumbotron-font);
+    text-shadow: -2px -1px 2px rgba(0,0,0,0.4);
+  }
+
+  .text_bg {
+    padding: 0.8rem;
+  }
+
+  .border {
+    padding: 0.5rem 1rem;
+  }
+}
